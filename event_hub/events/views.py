@@ -1,4 +1,5 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 def home(request):
-    return HttpResponse("Welcome to Event Hub!")
+    return render (request, 'events/home.html')
+
 # Create your views here.
