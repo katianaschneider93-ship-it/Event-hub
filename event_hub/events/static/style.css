@@ -1,0 +1,66 @@
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    color: #1e293b;
+}
+
+/* Navigation bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+}
+
+header h1 {
+    color: #2563eb;
+    font-size: 28px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #334155;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+/* Main homepage section */
+main {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+main h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #1e293b;
+}
+
+main p {
+    font-size: 18px;
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+/* Explore button */
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
